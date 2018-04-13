@@ -1,0 +1,47 @@
+﻿body, html {
+    height:100%
+}
+
+.fill {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.switchSidesMessageContainer {
+    position: absolute;
+    top: 0;
+    background: yellow;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
+}
+
+.switchSidesMessage {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -25px;
+    font-weight: 900;
+    font-size: 56px;
+}​
+
+@-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
