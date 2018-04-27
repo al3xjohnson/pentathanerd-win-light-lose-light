@@ -35,8 +35,7 @@ class GameService {
     }
 
     private static shouldSwitchSides() {
-        let randomNumber = Math.floor(Math.random() * 10);
-        console.log(randomNumber);
+        const randomNumber = Math.floor(Math.random() * 10);
         return randomNumber === 6;
     }
 }
